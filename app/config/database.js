@@ -1,3 +1,4 @@
+require("dotenv/config");
 const { DATABASE__PASSWORD, DB_HOST, DB_NAME, DB_USER } = process.env;
 
 module.exports = {

@@ -4,12 +4,14 @@
   "main": "app/index.js",
   "scripts": {
     "dev": "nodemon app/index.js",
-    "migrate": "yarn sequelize db:migrate"
+    "migrate": "yarn sequelize db:migrate",
+    "seed": "yarn sequelize db:seed:all"
   },
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.2",
-    "sequelize-cli": "^5.5.1"
+    "sequelize-cli": "^5.5.1",
+    "uuid": "^7.0.2"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
